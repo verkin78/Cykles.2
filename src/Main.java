@@ -73,5 +73,11 @@ public class Main {
             System.out.println(year);}
             }
 
+        int number = 1;
+        int number2 = 2;
+        for (; number <= 10; number ++) {
+            int iquel = number2 * number;
+            System.out.println(number2 + "*" + number + "=" + iquel);
+        }
     }
 }
