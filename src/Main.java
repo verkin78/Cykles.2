@@ -46,20 +46,25 @@ public class Main {
 
         int Deposit = 15000;
         int month = 1;
-        for ( ; Deposit <= 12_000_000; month ++) {
+        for (; Deposit <= 12_000_000; month++) {
             Deposit = Deposit + Deposit / 100 * 7;
-            if (month %6 == 0) {
-            System.out.println(" Месяц " + month + " сумма накоплений " + Deposit);
-            }}
+            if (month % 6 == 0) {
+                System.out.println(" Месяц " + month + " сумма накоплений " + Deposit);
+            }
+        }
 
         int depForVas = 15000;
         int aMonth = 1;
-        int allMonth = 9*12;
-        for ( ; aMonth <= allMonth; aMonth ++) {
+        int allMonth = 9 * 12;
+        for (; aMonth <= allMonth; aMonth++) {
             depForVas = depForVas + depForVas / 100 * 7;
-            if (aMonth %6 == 0) {
+            if (aMonth % 6 == 0) {
                 System.out.println(" В " + aMonth + " месяце накопления составят " + depForVas + " рубля(ей)");
             }
+        }
+        int friday = 3;
+        for ( ; friday <= 31; friday +=7) {
+            System.out.println(" Сегодня пятница " + friday + "-tе число. Неообходимо подготовить отчёт.");
         }
 
     }
