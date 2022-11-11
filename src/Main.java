@@ -44,5 +44,12 @@ public class Main {
             y = y + y * 9 / 1000;
         }
 
+        int Deposit = 15000;
+        int month = 1;
+        while (Deposit <= 12_000_000) {
+            System.out.println(" Месяц " + month++ + " сумма накоплений " + Deposit);
+            Deposit = Deposit + Deposit / 100 * 7;
+        }
+
     }
 }
