@@ -52,5 +52,15 @@ public class Main {
             System.out.println(" Месяц " + month + " сумма накоплений " + Deposit);
             }}
 
+        int depForVas = 15000;
+        int aMonth = 1;
+        int allMonth = 9*12;
+        for ( ; aMonth <= allMonth; aMonth ++) {
+            depForVas = depForVas + depForVas / 100 * 7;
+            if (aMonth %6 == 0) {
+                System.out.println(" В " + aMonth + " месяце накопления составят " + depForVas + " рубля(ей)");
+            }
+        }
+
     }
 }
