@@ -40,16 +40,17 @@ public class Main {
 
         int y = 12000000;
         for (int year = 1; year <= 10; year++) {
-            System.out.println(" В год " + year + " xbcktyyjcnm населения составил " + y + " человек ");
+            System.out.println(" В год " + year + " численность населения составил " + y + " человек ");
             y = y + y * 9 / 1000;
         }
 
         int Deposit = 15000;
         int month = 1;
-        while (Deposit <= 12_000_000) {
-            System.out.println(" Месяц " + month++ + " сумма накоплений " + Deposit);
+        for ( ; Deposit <= 12_000_000; month ++) {
             Deposit = Deposit + Deposit / 100 * 7;
-        }
+            if (month %6 == 0) {
+            System.out.println(" Месяц " + month + " сумма накоплений " + Deposit);
+            }}
 
     }
 }
