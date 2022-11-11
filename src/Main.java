@@ -67,5 +67,11 @@ public class Main {
             System.out.println(" Сегодня пятница " + friday + "-tе число. Неообходимо подготовить отчёт.");
         }
 
+        int year = 0;
+        for (; year <= 2122; year += 79) {
+            if (year >= 1822) {
+            System.out.println(year);}
+            }
+
     }
 }
