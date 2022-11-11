@@ -37,5 +37,12 @@ public class Main {
             System.out.print(b-- + " ");
             System.out.println(b--);
         }
+
+        int y = 12000000;
+        for (int year = 1; year <= 10; year++) {
+            System.out.println(" В год " + year + " xbcktyyjcnm населения составил " + y + " человек ");
+            y = y + y * 9 / 1000;
+        }
+
     }
 }
