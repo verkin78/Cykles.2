@@ -12,31 +12,14 @@ public class Main {
         int a = 0;
         while (a <= 10) {
             System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.print(a++ + " ");
-            System.out.println(a++);
         }
+        System.out.println(" ");
 
         for (int b = 10; b >= 0; ) {
             System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.print(b-- + " ");
-            System.out.println(b--);
-        }
+                    }
+        System.out.println(" ");
+
 
         int y = 12000000;
         for (int year = 1; year <= 10; year++) {
